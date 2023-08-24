@@ -2,6 +2,7 @@
 
 body{
   font-family: 'Cairo', sans-serif;
+  overflow: hidden;
 }
 /* #1E242A */
 
@@ -587,7 +588,7 @@ position: relative;
   #main #box1,#main #box2{
     position: unset;
     display: block;
-    animation:none;
+    /* animation:none; */
   }
   #box1{
     height: 300px;
@@ -830,7 +831,7 @@ position: relative;
   position: absolute;
   right: 0;
   top: 90%;
-  animation: rocket 2s infinite;
+  animation: rocket 2s infinite .3s;
 }
 .our-mission-content>:first-child>:first-child{
   display: flex;
@@ -930,7 +931,6 @@ position: relative;
 /* ================================== Start Our goal section ================================== */
 .our-goal{
   width: 100%;
-  margin-top: 150px;
 }
 .our-goal-content{
   display: flex;
@@ -942,8 +942,6 @@ position: relative;
   position: relative;
 }
 .our-goal-img-container img{
-  position: absolute;
-  transform: translateY(-50%);
   width: 450px;
 }
 .our-goal-content>:nth-child(2) h1{
@@ -985,9 +983,7 @@ position: relative;
 /* ================================== Start Rate us section ==================================  */
 .rate-us{
   width: 100%;
-  margin-top: 150px;  
-  overflow-y: hidden;
-  min-height: 400px;
+
 }
 .rate-us-content{
   display: flex;
@@ -1039,7 +1035,6 @@ position: relative;
   .rate-us-img-container img{
     width: 350px;
     height: 353px;
-    margin-bottom: 100px;
   }
 }
 /* ================================== End Rate us section ==================================  */
@@ -1424,7 +1419,7 @@ footer{
 }
 
 .social-media-links-ul li:nth-child(2) a:hover .fab {
-  color: #00aced;
+  color: #49C456;
 }
 
 .social-media-links-ul li:nth-child(3) a:hover .fab {
@@ -1432,11 +1427,19 @@ footer{
 }
 
 .social-media-links-ul li:nth-child(4) a:hover .fab {
-  color: #007bb6;
+  color: #e4405f;
 }
 
-.social-media-links-ul li:nth-child(5) a:hover .fab {
-  color: #e4405f;
+/* .social-media-links-ul li:nth-child(5) a:hover .fab {
+  color: #007bb6;
+} */
+.mail a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mail img{
+  margin-top: 6px;
 }
 @media (max-width:768px) {
   .footer-content{
