@@ -69,8 +69,8 @@ body {
   position: absolute;
   right: -30%;
   top: 20%;
-  animation: anim2 1s forwards;
-  -webkit-animation: anim2 1s forwards 1s;
+  animation: anim2 1s forwards 3.3s;
+  -webkit-animation: anim2 1s forwards 3.3s;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -466,8 +466,8 @@ body {
 #text {
   position: relative;
   left: -100%;
-  animation: anim3 1s forwards 1s;
-  -webkit-animation: anim3 1s forwards 1s;
+  animation: anim3 1s forwards 3.3s;
+  -webkit-animation: anim3 1s forwards 3.3s;
 }
 #text span{
   color: #F0892B;
@@ -676,7 +676,7 @@ position: relative;
 /* ================================== Start Our-Team section================================== */
 .our-team{
   width: 100%;
-  margin-top: 250px;
+  margin-top: 85px;
 }
 .our-team-content{
   display: flex;

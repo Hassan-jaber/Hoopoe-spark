@@ -1,12 +1,12 @@
 
 
-// let preloader = document.getElementById("preloader")
+let preloader = document.getElementById("preloader")
 
-// window.addEventListener(("load"), _ =>{
-//     setTimeout(() => {
-//         preloader.style.display="none"
-//     }, 3000);
-// })
+window.addEventListener(("load"), _ =>{
+    setTimeout(() => {
+        preloader.style.display="none"
+    }, 3000);
+})
 
 
 window.addEventListener('load', function() {
