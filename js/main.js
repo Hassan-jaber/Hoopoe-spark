@@ -2,11 +2,13 @@
 
 let preloader = document.getElementById("preloader")
 let navbar = document.querySelector(".navbar")
+let body = document.querySelector("body")
 window.addEventListener(("load"), _ =>{
     setTimeout(() => {
         preloader.style.display="none"
         navbar.style.display="block"
-    }, 2000);
+        body.style.overflow="visible"
+    }, 1500);
 })
 
 
@@ -42,3 +44,7 @@ navLinks.forEach(navLink => {
     this.classList.add('active');
   });
 });
+
+
+// ----------------------
+
