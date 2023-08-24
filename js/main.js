@@ -1,11 +1,12 @@
 
 
 let preloader = document.getElementById("preloader")
-
+let navbar = document.querySelector(".navbar")
 window.addEventListener(("load"), _ =>{
     setTimeout(() => {
         preloader.style.display="none"
-    }, 3000);
+        navbar.style.display="block"
+    }, 2000);
 })
 
 

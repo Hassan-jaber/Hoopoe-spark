@@ -69,8 +69,8 @@ body {
   position: absolute;
   right: -30%;
   top: 20%;
-  animation: anim2 1s forwards 3.3s;
-  -webkit-animation: anim2 1s forwards 3.3s;
+  animation: anim2 1s forwards 2.5s;
+  -webkit-animation: anim2 1s forwards 2.5s;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -466,8 +466,8 @@ body {
 #text {
   position: relative;
   left: -100%;
-  animation: anim3 1s forwards 3.3s;
-  -webkit-animation: anim3 1s forwards 3.3s;
+  animation: anim3 1s forwards 2.5s;
+  -webkit-animation: anim3 1s forwards 2.5s;
 }
 #text span{
   color: #F0892B;
@@ -611,6 +611,10 @@ position: relative;
 /* ================================== End Header ================================== */
 
 /* ================================== Start Navbar ==================================--> */
+.navbar{
+  display: none;
+  transition: 3s;
+}
 .nav-item  .active{
   color: #E78E2A !important;
 }
